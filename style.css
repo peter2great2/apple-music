@@ -1,0 +1,195 @@
+:root {
+  --primaryColor: rgb(155, 99, 88);
+  --textColor: #fff;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  background-color: var(--primaryColor);
+  color: var(--textColor);
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--primaryColor);
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+/* section one i.e the notification section */
+.notification {
+  height: 3%;
+  background-color: var(--primaryColor);
+  width: 100%;
+  color: var(--textColor);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: smaller;
+}
+.time {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+  font-size: small;
+}
+
+.battery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+}
+#battery {
+  rotate: -450deg;
+}
+.time img,
+.battery img {
+  width: 10px;
+}
+/* section two i.e the cover image section */
+.cover-image {
+  height: 37%;
+  width: 100%;
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cover-image img {
+  height: 100%;
+  width: 75%;
+  border-radius: 8px;
+}
+/* section three i.e the song information section*/
+.song-information {
+  height: 10%;
+  width: 100%;
+  margin-top: 18%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10%;
+}
+.song-information img {
+  height: 25px;
+}
+#songTitle {
+  font-size: larger;
+  font-weight: bold;
+}
+#artist {
+  font-weight: lighter;
+  opacity: 0.7;
+}
+
+.e-container {
+  width: 15px;
+  height: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  border-radius: 2px;
+}
+.e-container p {
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.title-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 5px;
+}
+
+/* section four i.e the progress bar section */
+.progress-bar {
+  height: 6%;
+  width: 100%;
+}
+.progress-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+progress {
+  width: 81%;
+  padding: 0 10%;
+  color: var(--primaryColor);
+  accent-color: rgb(134, 106, 106);
+}
+.duration {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10%;
+}
+.duration p {
+  opacity: 0.5;
+  font-size: smaller;
+}
+/* section five i.e button container section */
+.btn-container {
+  height: 20%;
+  width: 100%;
+  margin-top: 3%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 36px;
+}
+.btn-container img {
+  width: 80px;
+  height: 45px;
+  cursor: pointer;
+}
+
+#previous {
+  rotate: 180deg;
+}
+/* section six i.e the lyrics container section */
+
+.lyrics-container {
+  height: 8%;
+  width: 100%;
+  margin-top: 2%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10%;
+}
+.lyrics-container img {
+  width: 25px;
+}
+#lyrics {
+  width: 26px;
+  opacity: 0.5;
+}
+
+.circle {
+  width: 30px;
+  height: 30px;
+  background-color: rgb(172, 168, 152);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.circle img {
+  width: 20px;
+}

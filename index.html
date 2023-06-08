@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <title>Practice javascript</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <section class="notification">
+        <div class="time">
+          <p>9:33pm</p>
+          <img src="assets/whatsapp.svg" alt="" />
+          <img src="assets/facebook.svg" alt="" />
+          <img src="assets/twitter.svg" alt="" />
+          <img src="assets/instagram.svg" alt="" />
+        </div>
+        <div class="battery">
+          <img src="assets/alarm.svg" alt="" />
+          <img src="assets/bluetooth.svg" alt="" />
+          <img src="assets/wifi.svg" alt="" />
+          <img
+            src="assets/bars_connectivity_coverage_level_signal_icon.svg"
+            alt=""
+          />
+          <img
+            src="assets/bars_connectivity_coverage_level_signal_icon.svg"
+            alt=""
+          />
+          <img src="assets/battery-half.svg" alt="" id="battery" />
+          <p>52%</p>
+        </div>
+      </section>
+      <section class="cover-image">
+        <img src="assets/coverImages/Her_Loss.jpeg" alt="Her_Loss" id="cover" />
+      </section>
+      <section class="song-information">
+        <div class="info-container">
+          <div class="title-container">
+            <div>
+              <p id="songTitle">Rich Flex</p>
+            </div>
+            <div class="e-container">
+              <p>E</p>
+            </div>
+          </div>
+          <div>
+            <p id="artist">Drake & 21 Savage</p>
+          </div>
+        </div>
+        <div class="circle">
+          <img src="assets/three-dots-vertical.svg" alt="" />
+        </div>
+      </section>
+      <section class="progress-bar">
+        <div class="progress-container">
+          <progress max="100" value="0"></progress>
+        </div>
+        <div class="duration">
+          <p>0:00</p>
+          <p>-3.59</p>
+        </div>
+      </section>
+      <section class="btn-container">
+        <div>
+          <img
+            src="assets/music_next_next button_player_icon.svg"
+            alt=""
+            id="previous"
+            onclick="previous()"
+          />
+        </div>
+        <div>
+          <img
+            src="assets/music_play_play button_player_icon.svg"
+            alt=""
+            id="play"
+            onclick="app()"
+          />
+        </div>
+        <div>
+          <img
+            src="assets/music_next_next button_player_icon.svg"
+            alt=""
+            id="next"
+            onclick="next()"
+          />
+        </div>
+      </section>
+      <section class="lyrics-container">
+        <div>
+          <img src="assets/chat-left-quote-fill.svg" alt="" id="lyrics" />
+        </div>
+        <div>
+          <img src="assets/liiist_music_player_playlist_icon.svg" alt="" />
+        </div>
+      </section>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
